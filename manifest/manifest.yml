@@ -1,0 +1,24 @@
+version: '1'
+
+# Define all entity types
+entity_types:
+  Section:
+    show_properties: false
+    has_designer: true
+  SectionFolder:
+    show_properties: false
+    has_designer: false
+
+# On app start, create sample entity
+entities:
+- entity_type: SectionFolder
+  properties:
+    name: Sections
+  children:
+    - entity_type: Section
+      properties:
+        name: My first section
+
+# Meta data
+metadata:
+    background_image: background_image.jpg  # https://unsplash.com/photos/oYw8AfZWZxg
