@@ -23,4 +23,3 @@ class SectionFolderController(ViktorController):
     label = "Section Folder"
     children = ['Section']
     show_children_as = 'Cards'  # or 'Table'
-    viktor_convert_entity_field = True

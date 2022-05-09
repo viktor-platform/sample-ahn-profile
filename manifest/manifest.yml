@@ -18,7 +18,3 @@ entities:
     - entity_type: Section
       properties:
         name: My first section
-
-# Meta data
-metadata:
-    background_image: background_image.jpg  # https://unsplash.com/photos/oYw8AfZWZxg

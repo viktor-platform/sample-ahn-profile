@@ -29,7 +29,6 @@ class SectionController(ViktorController):
     """Controller class which acts as interface for the Section entity type."""
     label = "Section"
     parametrization = SectionParametrization(width=30)
-    viktor_convert_entity_field = True
 
     @MapView('Map', duration_guess=1)
     def get_map_view(self, params: Munch, **kwargs: dict) -> MapResult:

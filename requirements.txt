@@ -1,4 +1,4 @@
-# viktor==12.9.0
+# viktor==13.0.0
 pylint==2.12.2
 aiohttp==3.8.1
 numpy==1.21.5
